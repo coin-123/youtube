@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(228, 234, 232);
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.calculator{
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(105, 105, 110);
+}
+.calculator input{
+    background-color: aqua;
+    border: none;
+    box-shadow: 0 4px 8px 0 yellow;
+    width: 90%;
+    margin: 15px;
+    border-bottom: 2px solid black;
+    padding: 20px;
+    text-align: right;
+    font-size: 40px;
+}
+.calculator-buttons{
+    padding: 20px;
+/* grid shall all take place here */
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 15px;
+}
+.calc-button{
+background: rgba(0,0,0,0.3);
+border: 1px solid black;
+padding: 20px;
+color: white;
+border-radius: 5px;
+font-size: 22px;
+cursor: pointer;
+}
+
+.is-class{
+    background: rgb(184, 7, 7);
+}
+.is-equals{
+    background: rgb(66, 168, 168);
+}
+.is-time{
+    background-color: aqua;
+}
